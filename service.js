@@ -78,7 +78,7 @@ module.exports = function(config) {
         timeinterval = setInterval(function() {
             new job(JSON.parse(JSON.stringify(folderObjList)));
             event.emit('heartbeat', new Date());
-        }, 2000);
+        }, config.interval || 2000);
 
     };
     return event;

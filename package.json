@@ -1,6 +1,6 @@
 {
   "name": "sftp-watcher",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "service.js",
   "keywords": [
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parthasharathi/sftp-watcher.git"
+    "url": "git+https://github.com/geostarters/sftp-watcher.git"
   },
-  "author": "parthasharathi",
+  "author": "geostarters",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parthasharathi/sftp-watcher/issues"
+    "url": "https://github.com/geostarters/sftp-watcher/issues"
   },
-  "homepage": "https://github.com/parthasharathi/sftp-watcher#readme"
+  "homepage": "https://github.com/geostarters/sftp-watcher#readme"
 }
