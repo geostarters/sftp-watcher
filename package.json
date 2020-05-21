@@ -1,5 +1,5 @@
 {
-  "name": "sftp-watcher",
+  "name": "@geostarters/sftp-watcher",
   "version": "2.0.2",
   "description": "",
   "main": "service.js",

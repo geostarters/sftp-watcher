@@ -10,19 +10,20 @@ Configuration
 --------------------------------------------------------------------------
 * install package
 
-		npm install sftp-watcher
+		npm install @geostarters/sftp-watcher
 
 SampleCode
 --------------------------------------------------------------------------
 
-	var SftpWatcher = require("sftp-watcher");                            
+	const SftpWatcher = require("@geostarters/sftp-watcher";                            
 	
-	var event = new SftpWatcher({
+	const event = new SftpWatcher({
 			host : 'your.hostname.com',
 			port : 22,
 			username : 'username',
 			password : 'password',
-			path : 'test/'
+			path : 'test/',
+			interval: [miliseconds] /*optional: default 2000*/
 		});
 		
 	event.on("upload", function (data) {
